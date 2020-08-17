@@ -1,4 +1,4 @@
-# vue-update
+# vuejs-auth
 
 > Vue Auth & more
 

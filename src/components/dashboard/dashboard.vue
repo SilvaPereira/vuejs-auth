@@ -16,7 +16,7 @@ export default {
     }
   },
   created () {
-    axios.get('https://vuejs-auth-6182d.firebaseio.com/users.json')
+    axios.get('/users.json')
       .then(res => {
         coonsole.log(res)
         const data = res.data
